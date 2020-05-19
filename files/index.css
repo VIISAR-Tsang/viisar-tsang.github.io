@@ -1,0 +1,293 @@
+body {
+    background-color: #FFFFFF;
+    font-family: "Lato", sans-serif; 
+}
+
+#Groups {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.ProfHeader {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#grad {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#face-btn {
+    padding: 0px 0px;
+}
+
+.jumbotron {
+    padding-top: 0.5rem;
+    padding-bottom:0.5rem;
+}
+
+.jumbo-title {
+  background-color: #500000;
+  margin: 0px 0px;
+  border-radius: 0 !important;
+}
+
+.header-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #F4AF00;
+  font-size: 2.7em;
+}
+
+.navbar-bg {
+    background-color: #2f511f;
+}
+
+.nav-word {
+    color: #F4AF00;
+}
+
+.navbar-light .navbar-brand {
+    color: #F4AF00;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand.active,
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+        color: #F4AF00;
+}
+
+.navbar-light .nav-item .nav-link,
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+        color: #F4AF00;
+}
+
+a:link {
+  color: #836E2C;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #836E2C;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #836E2C;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #836E2C;
+  text-decoration: underline;
+}
+
+.info-news {
+    padding-top: 32px;
+}
+
+.lab-info {
+    padding: 0px 0px;
+}
+
+.jumbotron-divide {
+    margin: 32px 0px;
+}
+
+.display-3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.news {
+    margin: 10px 0px;
+}
+
+.scroll {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.subsection-divide {
+    padding-top: 32px; 
+}
+
+.nav-pills .nav-item.active .nav-link,
+.nav-pills .nav-item:focus .nav-link,
+.nav-pills .nav-item:hover .nav-link {
+    background-color: #500000;
+    color: #F4AF00;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:focus,
+.nav-pills .nav-link:hover {
+    background-color: #500000;
+    color: #F4AF00;
+}
+
+.publications {
+    padding: 10px 15px;
+}
+
+.bib-li {
+  margin-bottom: 1em;
+}
+
+.bib-title {
+  font-size: 120%;
+  color: #500000;
+}
+
+a.bib-title-a:link {
+  color: #500000;
+  text-decoration: none;
+}
+
+a.bib-title-a:visited {
+  color: #500000;
+  text-decoration: none;
+}
+
+a.bib-title-a:hover {
+  color: #500000;
+  text-decoration: underline;
+}
+
+a.bib-title-a:active {
+  color: #500000;
+  text-decoration: underline;
+}
+
+.bib-author {
+  color: #836E2C;
+}
+
+.bib-journal {
+  font-style: italic;
+}
+
+.bib-default {
+  
+}
+
+@media (min-width: 768px) {
+    
+    .divide {
+        border-left: 1px solid #0000001a;
+    }
+
+}
+
+@media (max-width: 767px) {
+    
+    .divide {
+        border-top: 1px solid #0000001a;
+    }
+
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(244,175,0, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Table */
+
+  .table-wrapper {
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+  }
+
+  table {
+    margin: 0 0 2.25em 0;
+    width: 100%;
+  }
+
+    table tbody tr {
+      border: solid 2px #f4f4f4;
+      border-left: 0;
+      border-right: 0;
+    }
+
+      table tbody tr:nth-child(2n + 1) {
+        background-color: #fafafa;
+      }
+
+    table td {
+      padding: 0.75em 0.75em;
+    }
+
+    table th {
+      color: #777;
+      font-size: 0.9em;
+      font-weight: 700;
+      padding: 0 0.75em 0.75em 0.75em;
+      text-align: left;
+    }
+
+    table thead {
+      border-bottom: solid 4px #e4e4e4;
+    }
+
+    table tfoot {
+      border-top: solid 4px #e4e4e4;
+    }
+
+    table.alt {
+      border-collapse: separate;
+    }
+
+      table.alt tbody tr td {
+        border: solid 2px #e4e4e4;
+        border-left-width: 0;
+        border-top-width: 0;
+      }
+
+        table.alt tbody tr td:first-child {
+          border-left-width: 2px;
+        }
+
+      table.alt tbody tr:first-child td {
+        border-top-width: 2px;
+      }
+
+      table.alt thead {
+        border-bottom: 0;
+      }
+
+      table.alt tfoot {
+        border-top: 0;
+      }
+
+@font-face {
+    font-family: 'Linux Biolinum'; /* normal */
+    src: url('./fonts/linux-biolinum/LinBiolinum_R.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum'; /* italic */
+    src: url('./fonts/linux-biolinum/LinBiolinum_RI.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum'; /* bold */
+    src: url('./fonts/linux-biolinum/LinBiolinum_RB.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum'; /* bold */
+    src: url('./fonts/linux-biolinum/LinBiolinum_RBI.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
